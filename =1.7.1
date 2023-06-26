@@ -1,7 +1,78 @@
-Defaulting to user installation because normal site-packages is not writeable
-Requirement already satisfied: torch in /home/praut/.local/lib/python3.6/site-packages (1.10.1)
-Requirement already satisfied: torchvision in /home/praut/.local/lib/python3.6/site-packages (0.11.2)
-Requirement already satisfied: typing-extensions in /home/praut/.local/lib/python3.6/site-packages (from torch) (4.1.1)
-Requirement already satisfied: dataclasses in /home/praut/.local/lib/python3.6/site-packages (from torch) (0.8)
-Requirement already satisfied: numpy in /home/praut/.local/lib/python3.6/site-packages (from torchvision) (1.19.5)
-Requirement already satisfied: pillow!=8.3.0,>=5.3.0 in /home/praut/.local/lib/python3.6/site-packages (from torchvision) (8.4.0)
+Collecting torch
+  Downloading torch-2.0.1-cp38-cp38-manylinux1_x86_64.whl (619.9 MB)
+Collecting torchvision
+  Downloading torchvision-0.15.2-cp38-cp38-manylinux1_x86_64.whl (33.8 MB)
+Collecting nvidia-cuda-cupti-cu11==11.7.101; platform_system == "Linux" and platform_machine == "x86_64"
+  Downloading nvidia_cuda_cupti_cu11-11.7.101-py3-none-manylinux1_x86_64.whl (11.8 MB)
+Collecting nvidia-nvtx-cu11==11.7.91; platform_system == "Linux" and platform_machine == "x86_64"
+  Downloading nvidia_nvtx_cu11-11.7.91-py3-none-manylinux1_x86_64.whl (98 kB)
+Collecting triton==2.0.0; platform_system == "Linux" and platform_machine == "x86_64"
+  Downloading triton-2.0.0-1-cp38-cp38-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (63.2 MB)
+Collecting jinja2
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+Collecting networkx
+  Downloading networkx-3.1-py3-none-any.whl (2.1 MB)
+Collecting nvidia-cuda-runtime-cu11==11.7.99; platform_system == "Linux" and platform_machine == "x86_64"
+  Downloading nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl (849 kB)
+Collecting nvidia-nccl-cu11==2.14.3; platform_system == "Linux" and platform_machine == "x86_64"
+  Downloading nvidia_nccl_cu11-2.14.3-py3-none-manylinux1_x86_64.whl (177.1 MB)
+Collecting nvidia-cudnn-cu11==8.5.0.96; platform_system == "Linux" and platform_machine == "x86_64"
+  Downloading nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl (557.1 MB)
+Collecting nvidia-cufft-cu11==10.9.0.58; platform_system == "Linux" and platform_machine == "x86_64"
+  Downloading nvidia_cufft_cu11-10.9.0.58-py3-none-manylinux1_x86_64.whl (168.4 MB)
+Collecting nvidia-cusparse-cu11==11.7.4.91; platform_system == "Linux" and platform_machine == "x86_64"
+  Downloading nvidia_cusparse_cu11-11.7.4.91-py3-none-manylinux1_x86_64.whl (173.2 MB)
+Collecting nvidia-cusolver-cu11==11.4.0.1; platform_system == "Linux" and platform_machine == "x86_64"
+  Downloading nvidia_cusolver_cu11-11.4.0.1-2-py3-none-manylinux1_x86_64.whl (102.6 MB)
+Collecting nvidia-cuda-nvrtc-cu11==11.7.99; platform_system == "Linux" and platform_machine == "x86_64"
+  Downloading nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl (21.0 MB)
+Collecting sympy
+  Downloading sympy-1.12-py3-none-any.whl (5.7 MB)
+Collecting filelock
+  Downloading filelock-3.12.2-py3-none-any.whl (10 kB)
+Collecting typing-extensions
+  Downloading typing_extensions-4.6.3-py3-none-any.whl (31 kB)
+Collecting nvidia-cublas-cu11==11.10.3.66; platform_system == "Linux" and platform_machine == "x86_64"
+  Downloading nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl (317.1 MB)
+Collecting nvidia-curand-cu11==10.2.10.91; platform_system == "Linux" and platform_machine == "x86_64"
+  Downloading nvidia_curand_cu11-10.2.10.91-py3-none-manylinux1_x86_64.whl (54.6 MB)
+Collecting requests
+  Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+Collecting pillow!=8.3.*,>=5.3.0
+  Downloading Pillow-9.5.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+Collecting numpy
+  Downloading numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+Requirement already satisfied: wheel in /usr/lib/python3/dist-packages (from nvidia-cuda-cupti-cu11==11.7.101; platform_system == "Linux" and platform_machine == "x86_64"->torch) (0.34.2)
+Requirement already satisfied: setuptools in /usr/lib/python3/dist-packages (from nvidia-cuda-cupti-cu11==11.7.101; platform_system == "Linux" and platform_machine == "x86_64"->torch) (45.2.0)
+Collecting cmake
+  Downloading cmake-3.26.4-py2.py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (24.0 MB)
+Collecting lit
+  Downloading lit-16.0.6.tar.gz (153 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting mpmath>=0.19
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+Collecting idna<4,>=2.5
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.0.3-py3-none-any.whl (123 kB)
+Collecting certifi>=2017.4.17
+  Downloading certifi-2023.5.7-py3-none-any.whl (156 kB)
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.1.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (195 kB)
+Building wheels for collected packages: lit
+  Building wheel for lit (PEP 517): started
+  Building wheel for lit (PEP 517): finished with status 'done'
+  Created wheel for lit: filename=lit-16.0.6-py3-none-any.whl size=93582 sha256=398eb57de12b822e5bec1a419dd871b5e76a35d00c4dc1e63d33435a803e6a6b
+  Stored in directory: /root/.cache/pip/wheels/05/ab/f1/0102fea49a41c753f0e79a1a4012417d5d7ef0f93224694472
+Successfully built lit
+Installing collected packages: nvidia-cuda-cupti-cu11, nvidia-nvtx-cu11, filelock, cmake, lit, triton, MarkupSafe, jinja2, networkx, nvidia-cuda-runtime-cu11, nvidia-nccl-cu11, nvidia-cublas-cu11, nvidia-cudnn-cu11, nvidia-cufft-cu11, nvidia-cusparse-cu11, nvidia-cusolver-cu11, nvidia-cuda-nvrtc-cu11, mpmath, sympy, typing-extensions, nvidia-curand-cu11, torch, idna, urllib3, certifi, charset-normalizer, requests, pillow, numpy, torchvision
+Successfully installed MarkupSafe-2.1.3 certifi-2023.5.7 charset-normalizer-3.1.0 cmake-3.26.4 filelock-3.12.2 idna-3.4 jinja2-3.1.2 lit-16.0.6 mpmath-1.3.0 networkx-3.1 numpy-1.24.4 nvidia-cublas-cu11-11.10.3.66 nvidia-cuda-cupti-cu11-11.7.101 nvidia-cuda-nvrtc-cu11-11.7.99 nvidia-cuda-runtime-cu11-11.7.99 nvidia-cudnn-cu11-8.5.0.96 nvidia-cufft-cu11-10.9.0.58 nvidia-curand-cu11-10.2.10.91 nvidia-cusolver-cu11-11.4.0.1 nvidia-cusparse-cu11-11.7.4.91 nvidia-nccl-cu11-2.14.3 nvidia-nvtx-cu11-11.7.91 pillow-9.5.0 requests-2.31.0 sympy-1.12 torch-2.0.1 torchvision-0.15.2 triton-2.0.0 typing-extensions-4.6.3 urllib3-2.0.3

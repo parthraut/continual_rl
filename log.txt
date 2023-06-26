@@ -1,3 +1,13 @@
 07/17/23
 
 - Building new image for Docker
+- Build image command: 
+
+
+
+whistler: sled-whistler:15
+
+
+build command docker: docker build -t cora:latest .
+
+

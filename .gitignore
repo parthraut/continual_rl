@@ -151,3 +151,6 @@ cython_debug/
 .vscode/
 
 *.pdf
+
+cora_trajs/
+crl_alfred/
